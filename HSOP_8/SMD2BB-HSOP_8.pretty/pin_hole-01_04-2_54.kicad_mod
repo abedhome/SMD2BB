@@ -1,0 +1,13 @@
+(module pin_hole-01_04-2_54 (layer F.Cu) (tedit 5F9AD038)
+  (fp_text reference REF** (at -1.27 -7.62) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value pin_hole-01_04-2_54 (at -17.018 -10.914) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 -3.81) (end 1.27 -3.81) (layer F.SilkS) (width 0.12))
+  (pad 1 thru_hole oval (at 0 -3.81) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (pad 4 thru_hole oval (at 0 3.81) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at 0 -1.27) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole oval (at 0 1.27) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+)
